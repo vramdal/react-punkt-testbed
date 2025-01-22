@@ -1,0 +1,45 @@
+{
+  "name": "react-punkt-testbed",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@oslokommune/punkt-assets": "12.14.0",
+    "@oslokommune/punkt-css": "12.15.0",
+    "@oslokommune/punkt-elements": "12.18.1",
+    "@oslokommune/punkt-react": "12.18.1",
+    "cra-template-typescript": "1.2.0",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "react-hook-form": "^7.53.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}
